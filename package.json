@@ -1,0 +1,31 @@
+{
+  "name": "depinject",
+  "version": "1.0.0",
+  "description": "NPM dependencies injector",
+  "main": "app/ndex.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariusNorv/depinject.git"
+  },
+  "keywords": [
+    "npm",
+    "inject",
+    "dulp",
+    "grunt",
+    "webpack"
+  ],
+  "author": "Kostya V. <djnafany@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DariusNorv/depinject/issues"
+  },
+  "homepage": "https://github.com/DariusNorv/depinject#readme",
+  "devDependencies": {
+    "fs-extra": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-documentation": "^3.1.0"
+  }
+}
