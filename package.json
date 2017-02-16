@@ -2,7 +2,7 @@
   "name": "depinject",
   "version": "1.0.0",
   "description": "NPM dependencies injector",
-  "main": "app/ndex.js",
+  "main": "./app/index.js",
   "scripts": {
     "build": "gulp"
   },
@@ -23,9 +23,11 @@
     "url": "https://github.com/DariusNorv/depinject/issues"
   },
   "homepage": "https://github.com/DariusNorv/depinject#readme",
-  "dependencies": {
-    "fs-extra": "^2.0.0",
+  "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-documentation": "^3.1.0"
+  },
+  "dependencies": {
+    "fs-extra": "^2.0.0"
   }
 }
