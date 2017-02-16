@@ -1,0 +1,2 @@
+# devinject
+NPM dependencies injector
